@@ -1,0 +1,68 @@
+<! DOCTYPE html>
+<html>
+ <head>
+  <title>
+   order
+  </title>
+  <script>
+   document.addEventListener('DOMContentLoaded', function(){
+   document.querySelector('.menuicon').onclick = function(){  
+   document.querySelector('.menulist').style.display = "block";}
+   
+   document.querySelector('.cancelicon').onclick = function(){  
+   document.querySelector('.menulist').style.display = "none";}
+   })
+  </script>
+  <link rel="stylesheet" href="css/order.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ </head>
+ <body>
+   <!-- order -->
+ 
+  <div id="order">
+  
+  <!--nav-->
+  <nav class="ordernav">
+   <div>
+    <div class="logo"><a href="home.html">Demasel</a></div>
+	<ul>
+	 <li class="menuicon"><a href="#" id=""><img src="icons/menu.png"></a></li>
+	 <li><a href="gallery.html" class="gallery" id="">Gallery</a></li>
+	 <li><a href="home.html" class="home" id="">Home</a></li>
+	 <li class="orderbutton"><a href="#">Order</a></li>
+	</ul>
+	</div>
+	</nav>
+   
+    <!--end nav-->
+   <!-- menu icon list -->
+ 
+  <div class="menulist">
+   <table>
+    <tr><td><a href="home.html" class="home1">home</a></tr></td>
+	<tr><td><a href="#" class="gallery1">gellery</a></tr></td>
+	<tr><td><a href="#"><img class="cancelicon" src="icons/cancel.png"></a></tr></td>
+   </table>
+  </div>
+ 
+ <!-- end menu icon list -->
+ 
+ <!-- how to order-->
+ <div class="order-content">
+  <h2>HOW TO ORDER</h2>
+  <div>
+   <img class="ordericon" src="icons/order.png">
+  </div>
+  <div class="ordertext">
+   You can order by taking a snapshot of the design or type of dress you want,
+   then send the photo via whatsapp or text message through this number <div class="order-number">0279295804</div>
+   you can also send the photo via telegram. THANK YOU...
+  </div>
+ </div>
+  
+ <!-- end how to order-->
+  
+ </body>
+</html>

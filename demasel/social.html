@@ -1,0 +1,65 @@
+<! DOCTYPE html>
+<html>
+ <head>
+  <title>
+   social
+  </title>
+  <script>
+   document.addEventListener('DOMContentLoaded', function(){
+   document.querySelector('.menuicon').onclick = function(){  
+   document.querySelector('.menulist').style.display = "block";}
+   
+   document.querySelector('.cancelicon').onclick = function(){  
+   document.querySelector('.menulist').style.display = "none";}
+   
+   })
+  </script>
+  <link rel="stylesheet" href="css/social.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ </head>
+ <body>
+ <!--nav-->
+ 
+   <nav class="socialnav">
+   <div>
+    <div class="logo"><a href="home.html">Demasel</a></div>
+	<ul>
+	 <li class="menuicon"><a href="#" id=""><img src="icons/menu.png"></a></li>
+	 <li><a class="social" href="social.html" id="present">Social</a></li>
+	 <li><a class="about" href="about.html" id="">About</a></li>
+	 <li><a class="gallery" href="gallery.html"id="">Gallery</a></li>
+	 <li><a class="home" href="home.html"id="">Home</a></li>
+	 <li class="orderbutton"><a href="order.html">Order</a></li>
+	</ul>
+   </div>
+  </nav>
+  
+  <!--end nav-->
+ 
+ 
+   <!-- menu icon list -->
+ 
+  <div class="menulist">
+   <table>
+    <tr><td><a href="home.html" class="home1">home</a></tr></td>
+	<tr><td><a href="gallery.html" class="gallery1">gellery</a></tr></td>
+	<tr><td><a href="about.html" class="about1">about</a></tr></td>
+	<tr><td><a href="social.html" class="social1">social</a></tr></td>
+	<tr><td><a href="#"><img class="cancelicon" src="icons/cancel.png"></a></tr></td>
+   </table>
+  </div>
+ 
+ <!-- end menu icon list -->
+ 
+ 
+ <!-- social-->
+  
+  <div class="social">
+  </div>
+  
+ <!-- end social-->
+ 
+ </body>
+</html>

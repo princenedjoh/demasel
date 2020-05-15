@@ -1,0 +1,75 @@
+<! DOCTYPE html>
+<html>
+ <head>
+  <script>
+   document.addEventListener('DOMContentLoaded', function(){
+   document.querySelector('.menuicon').onclick = function(){  
+   document.querySelector('.menulist').style.display = "block";}
+   
+   document.querySelector('.cancelicon').onclick = function(){  
+   document.querySelector('.menulist').style.display = "none";}
+   
+   })
+  
+  
+  </script>
+  <title>home</title>
+  <link rel="stylesheet" href="css/home.css">
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+ </head>
+ <body>
+ 
+
+ 
+ <!-- home -->
+  <!--nav-->
+  <div id="home">
+  <nav class="homenav">
+   <div>
+    <div class="logo"><a href="home.html">Demasel</a></div>
+	<ul>
+	 <li class="menuicon"><a href="#" id=""><img src="icons/menu.png"></a></li>
+	 <li><a href="gallery.html" class="gallery1" id="">Gallery</a></li>
+	 <li><a href="home.html" class="home1" id="present">Home</a></li>
+	 <li class="orderbutton"><a href="order.html">Order</a></li>
+	</ul>
+	</nav>
+   </div>
+  
+  
+  <!--end nav-->
+   <!-- menu icon list -->
+ 
+  <div class="menulist">
+   <table>
+    <tr><td><a href="home.html" class="home1">home</a></tr></td>
+	<tr><td><a href="gallery.html" class="gallery1">gellery</a></tr></td>
+	<tr><td><a href="#"><img class="cancelicon" src="icons/cancel.png"></a></tr></td>
+   </table>
+  </div>
+ 
+ <!-- end menu icon list -->
+ 
+ 
+  <!-- home content-->
+  <div id="home-content">
+   <div id="text1">WE MAKE
+   <br>YOU LOOK BEAUTIFUL</div>
+   <div id="circles">
+    <div class="gallery"><a href="gallery.html"><img src="css/images/gallery.png"></a><div class="icon-text"><a href="#">Gallery</a></div></div>
+   </div>
+  </div>
+  </div>
+  
+<!-- end home content -->
+
+
+ 
+ <!-- end home -->
+ 
+
+ 
+ </body>
+</html>
